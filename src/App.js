@@ -346,7 +346,6 @@ const HomepageLayout = () => (
                       outputting many types of forms to make sure that administration can easily input and find
                       the campers information.
                     </p>
-                    <Button a href="https://devpost.com/software/painttrix" target="_blank" content="Details" />
                   </Modal.Description>
                 </Modal.Content>
               </Modal>
