@@ -1,17 +1,27 @@
 {
-  "main.css": "static/css/main.2100870f.css",
-  "main.css.map": "static/css/main.2100870f.css.map",
-  "main.js": "static/js/main.568e1fe9.js",
-  "main.js.map": "static/js/main.568e1fe9.js.map",
-  "static\\media\\AboutMePic.jpg": "static/media/AboutMePic.ab55102c.jpg",
-  "static\\media\\AboutMePic2.jpg": "static/media/AboutMePic2.2957a907.jpg",
-  "static\\media\\MSProject.pdf": "static/media/MSProject.fd8c20e7.pdf",
-  "static\\media\\Mail.png": "static/media/Mail.77980d3b.png",
-  "static\\media\\OSJM.jpg": "static/media/OSJM.e1a9f526.jpg",
-  "static\\media\\Paintrix.jpg": "static/media/Paintrix.93ad61bb.jpg",
-  "static\\media\\Peng__Yun_Kai_Resume.pdf": "static/media/Peng__Yun_Kai_Resume.4bb514d4.pdf",
-  "static\\media\\Properpark.jpg": "static/media/Properpark.fe423082.jpg",
-  "static\\media\\backgroundPic.jpg": "static/media/backgroundPic.61066c4b.jpg",
-  "static\\media\\burger-logo.png": "static/media/burger-logo.b8503d26.png",
-  "static\\media\\porfilepic.jpg": "static/media/porfilepic.5cc18e38.jpg"
+  "files": {
+    "main.css": "/portfolio/static/css/main.ab115882.chunk.css",
+    "main.js": "/portfolio/static/js/main.df6169f2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.df6169f2.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.62c52c74.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.62c52c74.js.map",
+    "static/js/2.cafe24b8.chunk.js": "/portfolio/static/js/2.cafe24b8.chunk.js",
+    "static/js/2.cafe24b8.chunk.js.map": "/portfolio/static/js/2.cafe24b8.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.95d6d0d35c5b372c0a4392d7e6f98c7f.js": "/portfolio/precache-manifest.95d6d0d35c5b372c0a4392d7e6f98c7f.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.ab115882.chunk.css.map": "/portfolio/static/css/main.ab115882.chunk.css.map",
+    "static/js/2.cafe24b8.chunk.js.LICENSE": "/portfolio/static/js/2.cafe24b8.chunk.js.LICENSE",
+    "static/media/Paintrix.jpg": "/portfolio/static/media/Paintrix.93ad61bb.jpg",
+    "static/media/Peng__Yun_Kai_Resume.pdf": "/portfolio/static/media/Peng__Yun_Kai_Resume.881f376c.pdf",
+    "static/media/Properpark.jpg": "/portfolio/static/media/Properpark.fe423082.jpg",
+    "static/media/mindbook.jpg": "/portfolio/static/media/mindbook.499ed36c.jpg",
+    "static/media/porfilepic.jpg": "/portfolio/static/media/porfilepic.5cc18e38.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62c52c74.js",
+    "static/js/2.cafe24b8.chunk.js",
+    "static/css/main.ab115882.chunk.css",
+    "static/js/main.df6169f2.chunk.js"
+  ]
 }
