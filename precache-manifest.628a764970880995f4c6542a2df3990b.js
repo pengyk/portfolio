@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5eba2c82e3858993381e5df6febe6a70",
+    "revision": "ae40c1136f9d2201e3dd7acb2dbef5ef",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "6313dec17013057f0a17",
+    "revision": "490bf82ad454036a92d6",
     "url": "/portfolio/static/css/main.ab115882.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.cafe24b8.chunk.js.LICENSE"
   },
   {
-    "revision": "6313dec17013057f0a17",
-    "url": "/portfolio/static/js/main.a1fa31c0.chunk.js"
+    "revision": "490bf82ad454036a92d6",
+    "url": "/portfolio/static/js/main.cd330eb1.chunk.js"
   },
   {
     "revision": "88ce5c289f16660b92e4",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Paintrix.93ad61bb.jpg"
   },
   {
-    "revision": "881f376cd293e96852a1df53219c59c4",
-    "url": "/portfolio/static/media/Peng__Yun_Kai_Resume.881f376c.pdf"
+    "revision": "f9eeb9ec5891dea842e22fa9fe1522a6",
+    "url": "/portfolio/static/media/Peng__Yun_Kai_Resume.f9eeb9ec.pdf"
   },
   {
     "revision": "fe4230826a803cf8c7a6dbd630172b19",
