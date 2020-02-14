@@ -210,7 +210,7 @@ const HomepageLayout = () => (
             <br />
             <p style={{ fontSize: '1.33em' }}>
               I am currently a Computer Science and Mathematics student at McGill Univeristy
-              with a cumulative GPA of 3.56 on 4.00.
+              with a cumulative GPA of 3.58 on 4.00.
               For the winter semester, I will be interning at Manulife as a full stack software engineer. I have previously worked in an Agile environment in order to develop a functionning XML application for cloud document generation. Personnaly, I have an interest in the world of machine learning and mathematics. I wish to help people with the power that technology brings to us.
             </p>
           </Grid.Column>
