@@ -8,7 +8,7 @@ import profilePic from "./porfilepic.jpg"
 import PainTrix from "./Pictures/Paintrix.jpg"
 import MindBook from "./mindbook.jpg"
 import ProperPark from "./Pictures/Properpark.jpg"
-import Resume from "./Pictures/Peng__Yun_Kai_Resume.pdf"
+import Resume from "./Pictures/Resume_Yun_Kai_Peng.pdf"
 import MSAcces from "./Pictures/MSAccess.png"
 import "./App.css"
 // Heads up!
@@ -38,14 +38,6 @@ const HomepageHeading = ({ mobile }) => (
     <Header
       as='h1'
       content='Yun Kai Peng'
-      inverted
-      style={{
-        fontWeight: 'normal',
-      }}
-    />
-    <Header
-      as='h2'
-      content='Software Developer'
       inverted
       style={{
         fontWeight: 'normal',
@@ -100,10 +92,8 @@ class DesktopContainer extends Component {
                 <Menu.Item a href="#experience">Work Experience</Menu.Item>
                 <Menu.Item a href="#projects">Projects</Menu.Item>
                 <Menu.Item a href="#extra">Extra</Menu.Item>
-                <Menu.Item position='right'>
-                  <Button a href={Resume} target="_blank" inverted>
-                    Resume
-                  </Button>
+                <Menu.Item a href={Resume} target="_blank" inverted>
+                  Resume
                 </Menu.Item>
               </Container>
             </Menu>
@@ -205,13 +195,16 @@ const HomepageLayout = () => (
               About me
             </Header>
             <p style={{ fontSize: '1.66em' }}>
-              Computer Science and Mathematics student at Mcgill University
+              Computer Science and Mathematics student at McGill University
             </p>
             <br />
             <p style={{ fontSize: '1.33em' }}>
-              I am currently a Computer Science and Mathematics student at McGill Univeristy
-              with a cumulative GPA of 3.58 on 4.00.
-              For the winter semester, I will be interning at Manulife as a full stack software engineer. I have previously worked in an Agile environment in order to develop a functionning XML application for cloud document generation. Personnaly, I have an interest in the world of machine learning and mathematics. I wish to help people with the power that technology brings to us.
+              I am a Math & CS student at McGill University
+              with a CGPA of 3.73/4.00 currently interning at Amazon.
+
+              I am anticipating to graduate December 2021.
+
+              Feel free to contact me for additional information!
             </p>
           </Grid.Column>
         </Grid.Row>
@@ -227,13 +220,26 @@ const HomepageLayout = () => (
             <br/>
             <Container text>
               <Header as='h3' style={{ fontSize: '1.66em' }}>
+                Amazon
+              </Header>
+              <p style={{ fontSize: '1.33em' }}>
+                Working for Customer Service Team in handling customer communications by providing the necessary recommendations to users and routing contacts.
+                Using Java, React, Typescript, Redux and AWS products to build a web app capable of routing customer requirements to customer agents.
+              </p>
+              <Divider/>
+              <Header as='h3' style={{ fontSize: '1.66em' }}>
+                CDPQ
+              </Header>
+              <p style={{ fontSize: '1.33em' }}>
+                I used React with TypeScript to develop widgets for the development of the new intranet of the company. The plateform is built on top of SharePoint and Akumina.
+               </p>
+              <Divider/>
+              <Header as='h3' style={{ fontSize: '1.66em' }}>
                 Manulife (John Hancock)
               </Header>
               <p style={{ fontSize: '1.33em' }}>
-              Full stack developer in an Agile environment, currently working on a business risk-management
+              Full stack developer in an Agile environment, worked on a business risk-management
               application. Developed in ReactJS, Sprint Boot Java and SQL Server with REST APIs.
-              I am very lucky to work in this type of environment as I get to interact with very experienced software engineers.
-              Furthermore, this experience has allowed to better understand microservices and Restful APIs.
                </p>
               <Divider/>
               <Header as='h3' style={{ fontSize: '1.66em' }}>
@@ -242,8 +248,20 @@ const HomepageLayout = () => (
               <p style={{ fontSize: '1.33em' }}>
               Took part in the development of a new desktop application to run a cloud computing diagram
               generator called Cloudockit. Grasped good knowledge of XAML and C# to build this WPF Application.
-              This was a very good experience as it showed me the whole work that can be done in the .Net framework.
-              It has also allowed me to learn C# on top of my previous Java knowledge.
+              </p>
+            </Container>
+            <Divider/>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+              Research Experience
+            </Header>
+            <br/>
+            <Container text>
+              <Header as='h3' style={{ fontSize: '1.66em' }}>
+                McGill University
+              </Header>
+              <p style={{ fontSize: '1.33em' }}>
+                Implemented algorithms such as Hybrid Bipartite Graph Formulation in Python to predict patterns in crowd
+                sourced data from Eve Online under Dr.Jerome Waldispuhl’s supervision.
               </p>
             </Container>
           </Grid.Column>
@@ -367,17 +385,25 @@ const HomepageLayout = () => (
             </p>
             <List style={{ fontSize: '1.33em' }}>
               <List.Item>
+                <b>McHacks</b> <br />
+                <p>
+                  Development using React, TypeScript, MongoDB, Express and NodeJS to build multiple web applications for
+                  McGill University’s hackathon.
+                </p>
+              </List.Item>
+              <List.Item>
                 <b>Ex-member of the Canadian Armed Forces (Qualified Private Infantryman)</b> <br />
                 Graduated the basic military course and the infantry developmental period 1 course (DP1).
                 Participated in monthly military exercises throughout the school year and the summer.
               </List.Item>
               <List.Item>
-                <b>Member of l'OSJM (Orchestre des jeunes de Montreal)</b> <br />
-                Violin player.
+                <b>Music</b> <br />
+                Previous member of OSJM, Montreal's Youth Symphony Orchestra.
+                Recently, I am playing around on the violin, piano and I am trying to pick up the guitar. 
               </List.Item>
               <List.Item>
                 <b>Sports</b> <br />
-                Played high school and college rugby. Now I just like to move around :).
+                Played high school and college rugby. Now I jog around and rock climb a little here and there.
               </List.Item>
             </List>
             <br />
@@ -388,13 +414,12 @@ const HomepageLayout = () => (
 
     <Segment inverted vertical style={{ padding: '5em 0em' }}>
       <Container>
-        <Grid divided inverted stackable>
+        <Grid columns={3} inverted stackable>
           <Grid.Row>
             <Grid.Column>
               <Header inverted as='h4' content='Contact me' />
               <Button circular color='linkedin' icon='linkedin' size="large" a href="https://www.linkedin.com/in/yun-kai-peng-52853a158/" target="_blank" />
               <Button circular icon='github' size="large" a href="https://github.com/pengyk" target="_blank" />
-              <Button circular color='facebook' icon='facebook' size="large" a href="https://www.facebook.com/yunkai.peng.3" target="_blank" />
               <Button circular color='google plus' icon='mail' size="large" a href="mailto:yun.k.peng@mail.mcgill.ca" target="_blank" />
             </Grid.Column>
           </Grid.Row>
